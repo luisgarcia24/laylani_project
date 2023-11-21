@@ -1,0 +1,260 @@
+.mef {
+  height: calc(100%);
+}
+
+.mef-content {
+  height: 100%;
+  overflow: auto;
+  position: relative;
+}
+
+.mef-back-link {
+  top: 8px;
+  left: 8px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  text-decoration: none;
+}
+.mef-back-button {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+}
+.mef-back-button:hover {
+  width: 55px;
+  height: 55px;
+}
+.mef-back-button:active {
+  width: 50px;
+  height: 50px;
+}
+
+.mef-page-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+}
+.mef-page-title {
+  margin: 0;
+}
+
+.mef-page-01 {
+  height: calc(100% - 0px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdecb6;
+}
+.mef-page-01-title {
+  margin: 0;
+  text-align: center;
+  padding-bottom: 16px;
+}
+.mef-page-01-content-img {
+  text-align: center;
+}
+
+.mef-page-02 {
+  height: 100%;
+  background-color: #5d9b9a;
+}
+.mef-page-02-content {
+  height: calc(100% - 78px);
+  display: flex;
+}
+.mef-page-02-content-img {
+  width: 50%;
+}
+.mef-page-02-content-img-01 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.mef-page-02-content-img-02 {
+  display: flex;
+  justify-content: center;
+}
+.mef-page-02-content-text {
+  width: 50%;
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.mef-page-02-text {
+  margin: 0;
+  text-align: justify;
+}
+
+.mef-page-03 {
+  height: 100%;
+  background-color: #5d9b7d;
+}
+.mef-page-03-text {
+  font-weight: 100;
+  padding: 0 245px;
+  text-align: center;
+}
+.mef-page-03-content {
+  gap: 128px;
+  display: flex;
+  justify-content: center;
+}
+.mef-page-03-img {
+  max-height: 410px;
+}
+
+.mef-page-04 {
+  height: 100%;
+  position: relative;
+}
+.mef-page-04-info {
+  position: relative;
+}
+.mef-page-04-general-objetive {
+  display: flex;
+  justify-content: center;
+}
+.mef-page-04-general-objetive-content {
+  width: 500px;
+}
+.mef-page-04-general-objetive-title {
+  text-align: center;
+}
+.mef-page-04-general-objetive-text {
+  text-align: justify;
+}
+.mef-page-04-specific-objectives {
+  gap: 32px;
+  display: flex;
+  padding: 0 32px;
+  justify-content: center;
+}
+.mef-page-04-specific-objectives-text {
+  margin: 0;
+  padding: 32px;
+  border-radius: 32px;
+  background-color: beige;
+}
+
+.mef-page-05 {
+  height: 100%;
+  position: relative;
+}
+.mef-page-05-content {
+  gap: 16px;
+  width: 100%;
+  height: calc(100% - 58px);
+  display: flex;
+}
+.mef-page-05-content-img {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.mef-page-05-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.mef-page-06 {
+  height: 100%;
+  background-color: #bdecb6;
+}
+.mef-page-06-content {
+  padding: 32px;
+}
+.mef-page-06-table {
+  width: 100%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+.mef-page-06-th-td {
+  width: 50%;
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+.mef-page-06-th-tr:nth-child(odd) {
+  background-color: white;
+}
+.mef-page-06-th-tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.mef-page-07 {
+  height: 100%;
+  display: flex;
+}
+.mef-page-07-content {
+  width: 50%;
+}
+.mef-page-07-sub-content {
+  padding: 16px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mef-page-08 {
+  height: 100%;
+  background-color: aquamarine;
+}
+.mef-page-08-content {
+  display: flex;
+}
+.mef-page-08-content-text {
+  width: 50%;
+  padding: 32px;
+  font-size: 20px;
+  text-align: justify;
+}
+.mef-page-08-content-image {
+  width: 50%;
+  padding: 32px;
+  text-align: center;
+}
+
+.mef-page-09 {
+  height: 100%;
+}
+.mef-page-09-conten {
+  display: flex;
+}
+.mef-page-09-conten-text {
+  width: 50%;
+  padding: 32px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mef-page-10 {
+  height: 100%;
+}
+.mef-page-10-content {
+  display: flex;
+  justify-content: center;
+}
+.mef-page-10-sub-content {
+  padding: 8px;
+  display: flex;
+}
+.mef-page-10-content-image {
+  width: 175px;
+  padding: 8px;
+}
+
+.mef-page-11 {
+  height: 100%;
+}
+.mef-page-11-content {
+  text-align: center;
+  padding-top: 32px;
+}

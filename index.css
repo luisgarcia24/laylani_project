@@ -1,0 +1,12 @@
+.body {
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+.root {
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
